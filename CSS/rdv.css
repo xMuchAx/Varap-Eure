@@ -1,0 +1,62 @@
+
+.containerRdv{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    margin-bottom: 10vw;
+    margin-top: 15px;
+}
+
+.containerRdvLeft{
+    width: 43%;
+    margin-right: 7%;
+    height: 90% ;
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+
+
+
+.ContainerTitleProchainsRdv{
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 22%;
+    margin-bottom: 20px;
+    width: 200%;
+   
+}
+
+.titleRdv{
+    top: 0;
+    font-size: 38px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.titleProchains{
+    font-size: 38px;
+    font-weight: 800;
+    
+}
+
+.listeRdv{
+    height: 70%;
+    width:  100%;
+    overflow-y: scroll;
+    
+    /* box-shadow: inset 0px -6px 6px 0px rgba(0, 0, 0, 0.078); */
+}
+
+.content1rdv{
+    margin-bottom: 18px;
+    max-width: 99%;
+
+}
+
+.dateRdv{
+    font-weight: 700;
+}
+
+
+

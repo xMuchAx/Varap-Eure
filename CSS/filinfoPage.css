@@ -1,0 +1,137 @@
+.backTop{
+    background-image: url(../image/top2.png);
+}
+
+
+h1{
+    color: #f1a242;
+    margin-left: 10vw;
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+
+
+.navInfo{
+    border-top: 2px solid rgb(196, 196, 196);
+    border-bottom: 2px solid rgb(196, 196, 196);
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+
+h4{
+    font-weight: 500;
+    transition: 0.2s ease;
+    height: calc(100% + 6px);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+h4::before{
+    content: ""; 
+    position: absolute;
+    top: -50%;
+    left: 0;
+    width: 110%;
+    height: 200%;
+    background-image: linear-gradient(110deg,#f1a242, #f3c791, #f1a242 );
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: scaleX(0%);
+    transition: 0.6s 0.15s ease;
+    transform-origin: left;
+    z-index: -1;
+}
+
+h4:hover::before{
+    transform: scaleX(100%);
+}
+
+
+
+
+.gridInfo{
+    transform: scale(0%);
+    position: absolute;
+
+}
+
+
+.imgInfo{
+    height: 15vw;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1.5%;
+    border: #f1a242 solid 1px;
+}
+
+.txtInfo{
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+
+.redirection{
+    text-decoration: none;
+    color: black;
+}
+
+.titleInfo{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dateInfo{
+    font-size: 12px;
+    color: rgba(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.descriInfo{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.containerInfo{
+    width: 25vw;
+    margin-right: 1vw;
+}
+
+.containerGridsInfo{
+    height: min-content;
+    width: 80vw;
+    margin-left: 10vw;
+    position: relative;
+}
+
+.grid{
+    display: flex;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 26vw 26vw 26vw;
+    gap: 1.45vw;
+    margin-bottom: 50px;
+
+}
+
+
+
+
