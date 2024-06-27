@@ -20,7 +20,7 @@
 
     <div class="backTop"></div>
 
-    <h3>Varap'Eure - Le club - <strong>Nos valeur</strong></h3>
+    <h3>Varap'Eure - Le club - <strong>Histoire du club</strong></h3>
 
     <div class="containerValeur">
         <div class="containerImg">
@@ -28,9 +28,9 @@
             <img class="imgLeft" src="image/imgValeur2.png" alt="" srcset="">
         </div>
         <div class="containerRight">
-            <h1>NOS VALEUR</h1>
+            <h1>HISTOIRE DU CLUB</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere est magni dignissimos, ipsa dolorem laboriosam sapiente vel soluta esse quia voluptas debitis recusandae quisquam alias possimus ea aliquid cumque molestias sequi eveniet laborum? Veniam harum possimus obcaecati sit, sapiente quam numquam quisquam iure tenetur est pariatur dignissimos mollitia optio perferendis deleniti incidunt voluptates temporibus facere ex commodi et dolores eos dicta deserunt. Dignissimos ab accusantium voluptate sequi quia iusto, neque illum provident labore veritatis numquam error. Voluptate, numquam nisi non facere vel odit earum impedit, id laudantium provident assumenda. Culpa illo omnis cumque. In quasi blanditiis delectus odit iste?</p>
-            <a class="btn" href="histoire.php">>VOIR L'HISTOIRE DU CLUB</a>
+            <a class="btn" href="valeur.php">>VOIR NOS VALEURS</a>
         </div>
     </div>
 

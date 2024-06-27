@@ -56,7 +56,7 @@
         <div class="warning"><span class="flash">FLASH : </span><?php echo $result["descri"] ?> </div><div class="warning"><span class="flash">FLASH : </span><?php echo $result["descri"] ?> </div><div class="warning"><span class="flash">FLASH : </span><?php echo $result["descri"] ?> </div><div class="warning"><span class="flash">FLASH : </span><?php echo $result["descri"] ?> </div>
     </div>
 
-    <h1 class="titleCreneauxAcces"> <p class="titleCreneaux">NOS PROCHAIN CRENEAUX</p> <p class="titleAcces">ET ACCES</p> </h1>
+    <h1 class="titleCreneauxAcces" id="sites"> <p class="titleCreneaux">NOS PROCHAIN CRENEAUX</p> <p class="titleAcces">ET ACCES</p> </h1>
 
     <div class="containerCreneauxAcces">
 
@@ -136,7 +136,7 @@
         <div class="containerFilInfo">
 
             <div class="containerTitleFilInfo">
-            <h1 class="titleFilInfo"> <p>LE FIL-INFO</p> <p class="titleEscalade">ESCALADE</p>     <a href="" class="redirectionAllInfo">VOIR TOUTES LES ACTUALITES</a> </h1> </div>
+            <h1 class="titleFilInfo"> <p>LE FIL-INFO</p> <p class="titleEscalade">ESCALADE</p>     <a href="filinfoPage.php" class="redirectionAllInfo">VOIR TOUTES LES ACTUALITES</a> </h1> </div>
 
             <div class="btnLeft" id="btnLeft"></div>
             <div class="btnRight" id="btnRight"></div>
@@ -148,7 +148,7 @@
 
                             foreach($result as $filinfo){
                             
-                                echo "<a class='redirection' href=''>
+                                echo "<a class='redirection' href='".$filinfo['redirection']."'>
                                 <div class='containerInfo'>
                                 <div class='imgInfo' style='background-image: url(image/".$filinfo['image'].");'></div>
                                     <div class='txtInfo'>

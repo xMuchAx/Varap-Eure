@@ -59,7 +59,7 @@
                     $color = "#b3b3b3";
                 }
                                     
-                echo "<a class='redirection' href=''>
+                echo "<a class='redirection' href='".$filinfo['redirection']."'>
                     <div class='containerInfo'>
                         <div class='imgInfo' style='background-image: url(image/".$filinfo['image'].")'></div>
                         <div class='txtInfo'>
@@ -83,7 +83,7 @@
                     $color = "#b3b3b3";
                 }
                                     
-                echo "<a class='redirection' href=''>
+                echo "<a class='redirection' href='".$filinfo['redirection']."'>
                     <div class='containerInfo'>
                         <div class='imgInfo' style='background-image: url(image/".$filinfo['image'].")'></div>
                         <div class='txtInfo'>
@@ -108,7 +108,7 @@
                     $color = "#b3b3b3";
                 }
                                     
-                echo "<a class='redirection' href=''>
+                echo "<a class='redirection' href='".$filinfo['redirection']."'>
                     <div class='containerInfo'>
                         <div class='imgInfo' style='background-image: url(image/".$filinfo['image'].")'></div>
                         <div class='txtInfo'>
@@ -132,7 +132,7 @@
                     $color = "#b3b3b3";
                 }
                                     
-                echo "<a class='redirection' href=''>
+                echo "<a class='redirection' href='".$filinfo['redirection']."'>
                     <div class='containerInfo'>
                         <div class='imgInfo' style='background-image: url(image/".$filinfo['image'].")'></div>
                         <div class='txtInfo'>
