@@ -1,9 +1,7 @@
-
-
 .backgroundFilInfo{
-    height: 700px;
+    height: 660px;
     width: 100vw;
-    background-color: aqua;
+    background-image: url(../image/fil-info-background.jpg);
     margin-top: 30px;
     position: relative;
 }

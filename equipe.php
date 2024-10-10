@@ -27,7 +27,7 @@
 
     
 
-    <div class="backTop"></div>
+    <img class="imgP" src="image/top1.png" alt="" srcset="">
 
     <h3>Varap'Eure - L'équipe - <strong>Le bureau</strong></h3>
 
@@ -92,7 +92,7 @@
         ?>
     </div>
 
-    <div class="imgFinPdp"></div>
+    <img class="pdp"  src="image/finpdp.png" alt="" srcset="">
 
 
     

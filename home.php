@@ -246,41 +246,11 @@
 
     <!-- PIED DE PAGE -->
 
-    <div class="containerPdp">
+    <?php
+        require("pdp.html");
+    ?>
 
-    <div class="card card1">
-        <a href="">
-        <div class="cardTop cardTop1"></div>
-        <div class="cardBottom">
-            <h2 class="txtPdp">L'EQUIPE VARAP'EURE</h2>
-        </div>
-        </a>
-    </div>
-
-    <div class="card">
-        <a href="">
-        <div class="cardTop cardTop2"></div>
-        <div class="cardBottom ">
-        <h2 class="txtPdp">BOUTIQUE VARAP'EURE</h2>
-        </div>
-        </a>
-    </div>
-
-    <div class="card">
-        <a href="">
-        <div class="cardTop cardTop3"></div>
-        <div class="cardBottom">
-        <h2 class="txtPdp">DOSSIER D'INSCRIPTION</h2>
-        </div>
-        </a>
-    </div>
-    
-    </div>
-
-    <div class="imgFinPdp"></div>
-    
-
-
+    <img class="pdp"  src="image/finpdp.png" alt="" srcset="">
 
     <!-- JAVASCRIPT -->
 

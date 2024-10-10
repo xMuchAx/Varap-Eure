@@ -12,13 +12,11 @@
 
      <!-- CONNEXION BDD + MENU -->
 
-     <?php
-    require("menu.html");
+    <?php
+        require("menu.html");
     ?>
 
-
-
-    <div class="backTop"></div>
+    <img class="imgP" src="image/backTop3.png" alt="" srcset="">
 
     <h3>Varap'Eure - Le club - <strong>Nos valeur</strong></h3>
 
@@ -30,7 +28,7 @@
         <div class="containerRight">
             <h1>NOS VALEUR</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere est magni dignissimos, ipsa dolorem laboriosam sapiente vel soluta esse quia voluptas debitis recusandae quisquam alias possimus ea aliquid cumque molestias sequi eveniet laborum? Veniam harum possimus obcaecati sit, sapiente quam numquam quisquam iure tenetur est pariatur dignissimos mollitia optio perferendis deleniti incidunt voluptates temporibus facere ex commodi et dolores eos dicta deserunt. Dignissimos ab accusantium voluptate sequi quia iusto, neque illum provident labore veritatis numquam error. Voluptate, numquam nisi non facere vel odit earum impedit, id laudantium provident assumenda. Culpa illo omnis cumque. In quasi blanditiis delectus odit iste?</p>
-            <a class="btn" href="histoire.php">>VOIR L'HISTOIRE DU CLUB</a>
+            <a class="btn" href="histoire.php">> VOIR L'HISTOIRE DU CLUB</a>
         </div>
     </div>
 
@@ -42,6 +40,6 @@
     ?>
 
 
-    <div class="imgFinPdp"></div>
+    <img class="pdp"  src="image/finpdp.png" alt="" srcset="">
 </body>
 </html>

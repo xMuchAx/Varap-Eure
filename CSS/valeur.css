@@ -13,10 +13,6 @@ h1{
     
 }
 
-.backTop{
-    background-image: url(../image/backTop3.png);
-}
-
 .containerValeur{
     width: 80vw;
     margin-left: 10vw;
@@ -51,46 +47,7 @@ p{
 }
 
 .btn{
-    margin-left: 40px;
-    padding: 10px;
-    padding-right: 5vw;
-    border: solid #f1a242 1px;
-    text-decoration: none;
-    color: black;
     position: absolute;
-    bottom: 20%;
-    border-radius: 3px;
-    transition: 0.1s 0.2s ease;
-    overflow: hidden;
-
+    bottom: 10px;
 }
 
-.btn:hover::after{
-    transform: scaleX(100%);
-}
-
-.btn:hover{
-    color: white;
-
-}
-
-.btn::after{
-    content: "";
-    position: absolute;
-    display: block;
-    height: 400%;
-    width: 130%;
-    background-image: linear-gradient(110deg,#f1a242, #f3c791, #f1a242 );
-    bottom: -150%;
-    margin-left: -30%;
-    border: solid #f1a242 1px;
-    transition: 0.8s 0.1s ease;
-    transform: scaleX(0%);
-    transform-origin: left;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    z-index: -1;
-
-
-
-}

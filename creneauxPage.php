@@ -36,7 +36,7 @@
 
 
 
-    <div class="backTop"></div>
+    <img class="imgP" src="image/backTop3.png" alt="" srcset="">
 
     <h3>Varap'Eure - Le club - <strong>Nos créneaux</strong></h3>
 
@@ -77,8 +77,7 @@
 
             
 
-            <a class="btn" href="">>VOIR LES ADHESIONS ET TARIFS</a>
-
+            <a class="btn" href="">> VOIR LES ADHESIONS ET TARIFS</a>
         </div>
     </div>
 
@@ -90,6 +89,6 @@
     ?>
 
 
-    <div class="imgFinPdp"></div>
+    <img class="pdp"  src="image/finpdp.png" alt="" srcset="">
 </body>
 </html>

@@ -32,6 +32,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .cardBottom{
@@ -40,6 +41,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    width: 100%;
 }
 
 .txtPdp{
@@ -74,13 +76,14 @@
     color: rgb(255, 255, 255);
 }
 
+/*TODO attention ici au background size*/
 .cardTop1{
     background-image: url(../image/equipe.png);
+    background-size: 110%
 }
 
 .cardTop2{
     background-image: url(../image/collection.png);
-    background-position-y:top ;
 }
 
 .cardTop3{

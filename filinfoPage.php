@@ -32,7 +32,7 @@
     $result3 = $req3->fetchAll();
     ?>
 
-    <div class="backTop"></div>
+    <img class="imgP" src="image/top2.png" alt="" srcset="">
 
     <h3>Varap'Eure - <strong>Le fil-info</strong></h3>
 
@@ -146,10 +146,6 @@
         <div class="imgFinPdp" style="margin-left : -10vw"></div>
         </div>
     </div>
-
-    
-
-
 
     <script src="JS/filinfoPage.js"></script>
 </body>
